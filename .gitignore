@@ -1,8 +1,0 @@
-# Python
-*.py[co]
-__pycache__
-
-# PyPI
-build/
-dist/
-*.egg-info/

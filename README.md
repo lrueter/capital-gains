@@ -14,14 +14,6 @@ ESPP disqualifying dispositions.
 See also
 [nkouevda/estimated-taxes](https://github.com/nkouevda/estimated-taxes).
 
-## Installation
-
-    pip install capital-gains
-
-Or:
-
-    brew install nkouevda/nkouevda/capital-gains
-
 ## Usage
 
 ```
@@ -64,11 +56,10 @@ other than FIFO.
 
 ## Examples
 
-    capital-gains -t input/example.csv > output/example.txt
+    docker run -it -v /Users/xxxx/Source/capital-gains/local:/usr/src/app/local capital-gains-app bash
 
-## TODO
+    capital-gains -t input/example.csv > local/example.txt
 
-- STCG vs. LTCG
 
 ## License
 
