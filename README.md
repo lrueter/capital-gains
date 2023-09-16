@@ -58,7 +58,7 @@ other than FIFO.
 
     docker run -it -v /Users/xxxx/Source/capital-gains/local:/usr/src/app/local capital-gains-app bash
 
-    capital-gains -t input/example.csv > local/example.txt
+    capital-gains -t input/example1.csv > local/example.txt
 
 
 ## License
