@@ -56,10 +56,15 @@ other than FIFO.
 
 ## Examples
 
-    docker run -it -v /Users/xxxx/Source/capital-gains/local:/usr/src/app/local capital-gains-app bash
-
-    capital-gains -t input/example1.csv > local/example.txt
-
+```
+docker build -t capital-gains-app .
+```
+```
+docker run -it -v /Users/xxxx/Source/capital-gains/local:/usr/src/app/local capital-gains-app bash
+```
+```
+capital-gains -t input/example1.csv > local/example.txt
+```
 
 ## License
 
